@@ -1,0 +1,82 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general para el body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para el header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Estilo para los artículos de plataformas */
+section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.platform {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+}
+
+.platform img {
+    width: 80%;
+    margin: 15px 0;
+}
+
+.platform h2 {
+    font-size: 1.8em;
+    color: #4CAF50;
+}
+
+.platform p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.platform a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.platform a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
